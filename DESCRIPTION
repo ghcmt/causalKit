@@ -1,0 +1,26 @@
+Package: causalKit
+Type: Package
+Title: Causal Analysis: Confounding Covariates and Mediation Analysis. 
+Version: 0.3.7
+Author: 
+    person("Carlos", "Martínez Torró", , "carlos.martinez@grifols.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-3529-3355"))
+Maintainer: Carlos Martínez Torró <carlos.martinez@grifols.com>
+Description:
+    This package is designed to perform a causal analysis on a given dataset.
+    It focus on determining the relationship between several covariates and a dependent
+    variable of interest. The package contains functions that help identifying potential 
+    confounding factors in the data that need to be controlled for in a causal inference analysis.
+    In addition, it also performs interaction and mediation analysis to determine 
+    if there are covariates that have an effect on a given dependent variable. 
+Imports:
+    kableExtra,
+    GGally,
+    tidyverse,
+    openxlsx,
+    lmerTest,
+    progress
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
